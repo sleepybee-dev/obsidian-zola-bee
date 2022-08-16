@@ -51,13 +51,14 @@
   width: 35%;
   min-width: 120px;
   overflow: hidden;
+  background-color: #dddddd !important;
 }
 
 .rich-link-card .rich-link-image {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #dddddd !important;
+  padding-bottom: 100px;
 }
 
 .rich-link-card .rich-link-card-text {
