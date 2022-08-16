@@ -2,9 +2,9 @@
   <img height="200" src="icon.png">
 </p>
 # obsidian-zola-bee
-+ Add [obsidian-rich-links](https://github.com/dhamaniasad/obsidian-rich-links) Style
 
-===
+1. Add [obsidian-rich-links](https://github.com/dhamaniasad/obsidian-rich-links) Style
+
 # obsidian-zola
 
 ![](https://img.shields.io/github/v/release/ppeetteerrs/obsidian-zola)
