@@ -2,7 +2,7 @@
 # obsidian-zola-bee   
    
 1. Add [obsidian-rich-links](https://github.com/dhamaniasad/obsidian-rich-links) Style
-
+2. Not showing if folder name is "ignore"
 
 ----    
 
