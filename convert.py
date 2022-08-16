@@ -64,7 +64,7 @@ if __name__ == "__main__":
             """Section"""
             # Frontmatter
             # TODO: sort_by depends on settings
-            if "ignore" not in doc_path.section_title.lower() && "/" not in doc_path.new_rel_path :
+            if "ignore" not in doc_path.section_title.lower() and "/" not in doc_path.new_rel_path :
                 content = [
                     "---",
                     f'title: "{doc_path.section_title}"',
