@@ -27,9 +27,7 @@
 /* rich link */
 
 .rich-link-card {
-  border: solid  $gray-200;
-  border-width: 0 1px;
-  margin: 20px 0;
+  border: 1px solid #000 !important;
   border-radius: 3px;
   width: 100%;
   display: flex;
