@@ -64,21 +64,22 @@ if __name__ == "__main__":
             """Section"""
             # Frontmatter
             # TODO: sort_by depends on settings
-            content = [
-                "---",
-                f'title: "{doc_path.section_title}"',
-                "template: docs/section.html",
-                f"sort_by: {Settings.options['SORT_BY']}",
-                f"weight: {section_count}",
-                "extra:",
-                f"    sidebar: {doc_path.section_sidebar}",
-                "---",
-                # To add last line-break
-                "",
-            ]
-            section_count += 1
-            doc_path.write_to("_index.md", "\n".join(content))
-            print(f"Found section: {doc_path.new_rel_path}")
+            if doc_path.section_title.lower() != "ignore":
+                content = [
+                    "---",
+                    f'title: "{doc_path.section_title}"',
+                    "template: docs/section.html",
+                    f"sort_by: {Settings.options['SORT_BY']}",
+                    f"weight: {section_count}",
+                    "extra:",
+                    f"    sidebar: {doc_path.section_sidebar}",
+                    "---",
+                    # To add last line-break
+                    "",
+                ]
+                section_count += 1
+                doc_path.write_to("_index.md", "\n".join(content))
+                print(f"Found section: {doc_path.new_rel_path}")
 
     pp(nodes)
     pp(edges)
