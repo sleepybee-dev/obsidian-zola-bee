@@ -64,9 +64,8 @@ if __name__ == "__main__":
             """Section"""
             # Frontmatter
             # TODO: sort_by depends on settings
-            print(f"Found section1: {doc_path.new_rel_path}")
-            if "ignore" not in doc_path.section_title.lower() :
-                if "/" not in doc_path.new_rel_path :
+            if "ignore" not in doc_path.section_title.lower():
+                if "/" not in str(doc_path.new_rel_path):
                     content = [
                         "---",
                         f'title: "{doc_path.section_title}"',
@@ -81,7 +80,7 @@ if __name__ == "__main__":
                     ]
                     section_count += 1
                     doc_path.write_to("_index.md", "\n".join(content))
-                    print(f"Found section2: {doc_path.new_rel_path}")
+                    print(f"Found section: {doc_path.new_rel_path}")
 
     pp(nodes)
     pp(edges)
