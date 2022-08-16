@@ -1,12 +1,17 @@
-<p align="center">
-  <img height="200" src="icon.png">
-</p>
-# obsidian-zola-bee
 
+# obsidian-zola-bee   
+   
 1. Add [obsidian-rich-links](https://github.com/dhamaniasad/obsidian-rich-links) Style
 
-# obsidian-zola
 
+----    
+
+<p align="center">
+  <img height="200" src="icon.png">
+</p>  
+
+# obsidian-zola  
+   
 ![](https://img.shields.io/github/v/release/ppeetteerrs/obsidian-zola)
 ![](https://img.shields.io/github/issues-closed-raw/ppeetteerrs/obsidian-zola)
 ![](https://img.shields.io/badge/dynamic/json?color=blueviolet&label=today%27s%20views&query=%24.datasets%5B1%5D.values%5B%28%40.length-1%29%5D&url=https%3A%2F%2Fyhype.me%2Fapi%2Fchart%2Frepository_views_count_chart_controller%3FrepositoryNodeId%3DR_kgDOGpHp4A)
