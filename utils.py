@@ -254,10 +254,12 @@ class DocPath:
     def abs_url(self) -> str:
         """Returns an absolute URL to the page."""
         assert self.is_md
+        print(f"abs_rul : {str(self.new_rel_path)[:-3]}")
         return quote(f"/docs/{str(self.new_rel_path)[:-3]}")
 
     def edge(self, other: str) -> Tuple[str, str]:
         """Gets an edge from page's URL to another URL."""
+        print(f"edge : {tuple(sorted([self.abs_url, other]))}")
         return tuple(sorted([self.abs_url, other]))
 
 
