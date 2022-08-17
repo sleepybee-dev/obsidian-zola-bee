@@ -55,7 +55,7 @@ if __name__ == "__main__":
                     "",
                 ]
                 doc_path.write(["\n".join(content), *parsed_lines])
-                print(f"Found page: {doc_path.new_rel_path}")
+                print(f"Found page: {doc_path.new_rel_path} {str(content)}")
             else:
                 # Resource
                 doc_path.copy()
