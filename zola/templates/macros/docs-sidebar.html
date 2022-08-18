@@ -18,7 +18,6 @@
 				{% if index.subsections %}
 					{% for s in index.subsections %}
 						{% set subsection = get_section(path=s) %}
-						{% if not subsection.extra.sidebar.contains("ignore") %}
 							{% if subsection.pages %}
 									<h3 class="collapsible-section">{{ subsection.extra.sidebar | safe }}</h3>
 									<div class="collapsible-wrapper">
@@ -29,7 +28,6 @@
 										</ul>
 									</div>
 							{% endif %}
-						{% endif %}
 			
 			{$ endif $}
 <!-- 					{% if subsection.subsections %}
