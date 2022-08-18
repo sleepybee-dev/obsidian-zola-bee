@@ -1,8 +1,9 @@
 
 # obsidian-zola-bee   
    
-1. Add [obsidian-rich-links](https://github.com/dhamaniasad/obsidian-rich-links) Style
-2. Not showing if folder name contains "ignore"
+1. Add [obsidian-rich-links](https://github.com/dhamaniasad/obsidian-rich-links) Style.
+2. Not showing if folder name contains "ignore".
+3. Not showing nested folders in side-bar. But they will have their URL.
 
 ----    
 
