@@ -16,13 +16,13 @@
 			{% if index.subsections %}
 				{% for s in index.subsections %}
 					{% set subsection = get_section(path=s) %}
-						{% if not subsection.extra.sidebar.contains("ignore") %}}
+						{% if not subsection.extra.sidebar.contains("ignore") %}
 						{% if subsection.pages %}
 							<h3 class="collapsible-section">{{ subsection.extra.sidebar | safe }}</h3>
 							<div class="collapsible-wrapper">
 								<ul class="list-unstyled">
 								{% for page in subsection.pages %}                           
-										<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title | safe }}</a></li>
+									<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title | safe }}</a></li>
 								{% endfor %}
 								</ul>
 							</div>
