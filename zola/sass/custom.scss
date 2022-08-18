@@ -58,12 +58,12 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 35%;
   padding-bottom: 140px;
 }
 
 .rich-link-card .rich-link-card-text {
   padding: 20px;
+  overflow: hidden;
   width: 75%;
 }
 
