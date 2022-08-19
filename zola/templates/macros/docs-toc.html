@@ -1,10 +1,10 @@
-{% macro docs_toc(page) %}
-
 {% block header %}
   {# This value is matched by the config.extra.menu.main~url #}
   {% set current_section = "docs" %}
   {{ macros_header::header(current_section=current_section)}}
 {% endblock header %}
+
+{% macro docs_toc(page) %}
 
   <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
         {% if config.extra.page_graph %}
