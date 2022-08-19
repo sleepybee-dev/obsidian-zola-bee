@@ -4,6 +4,9 @@
         {% if config.extra.page_graph %}
           {{ macros_docs_graph::docs_graph(page=page, current_section="docs") }}
         {% endif %}
+          {% if config.extra.page_graph %}
+         {{ macros_graph::graph_js() }}
+       {% endif %}
   	<div class="page-links">
   			<h3>On this page</h3>
   			<nav id="TableOfContents">
