@@ -23,18 +23,18 @@
         {% if config.extra.edit_page %}
           {{ macros_edit_page::docs_edit_page(current_path=current_path) }}
         {% endif %}
+      	<br><br>
+	<script src="https://utteranc.es/client.js"
+		repo="sleepybee-dev/dev-log-comments"
+		issue-term="pathname"
+		label="reply"
+		theme="github-light"
+		crossorigin="anonymous"
+		async>
+	</script>
       </main>
     </div>
   </div>
 </div>
-
-<script src="https://utteranc.es/client.js"
-        repo="sleepybee-dev/dev-log-comments"
-        issue-term="pathname"
-        label="reply"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
 {% endblock content %}
