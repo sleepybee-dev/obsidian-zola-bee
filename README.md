@@ -1,7 +1,10 @@
 
 # obsidian-zola-bee   
 
-[!] If you use this, You must remove meta tag **_"google-site-verification"_** in `/zola/templates/base.html`. Or You can modify it to your own on `Google Search Console`.
+[!] If you use this, You must remove some features below Or You can modify it to your own.
+ - Meta tag **_"google-site-verification"_** in `/zola/templates/base.html`. It is from `Google Search Console`.
+ - Script **_""https://utteranc.es/client.js"_** in `/zola/templates/docs/page.html`. It is from `[Utterances](https://utteranc.es)`.
+
 1. Added [obsidian-rich-links](https://github.com/dhamaniasad/obsidian-rich-links) Style.
 2. Not showing if folder name contains "ignore".
 3. Not showing nested folders in side-bar. But they will have their URL.
