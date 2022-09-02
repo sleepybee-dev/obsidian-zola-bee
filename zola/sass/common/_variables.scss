@@ -105,11 +105,11 @@ $font-family-monospace:       "Fira Code", sfmono-regular, menlo, monaco, consol
 $font-family-base:            $font-family-sans-serif;
 // stylelint-enable value-keyword-case
 
-$font-size-base:              0.8rem; // Assumes the browser default, typically `16px`
-$font-size-xl:                $font-size-base * 1.375;
-$font-size-lg:                $font-size-base * 1.25;
-$font-size-md:                $font-size-base * 1.125;
-$font-size-sm:                $font-size-base * 0.875;
+$font-size-base:              0.875rem; // Assumes the browser default, typically `16px`
+$font-size-xl:                1.375rem;
+$font-size-lg:                1.25rem;
+$font-size-md:                1.125rem;
+$font-size-sm:                0.875rem;
 
 $line-height-base:            1.5;
 
