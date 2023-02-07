@@ -24,9 +24,9 @@ document.getElementById("mode").addEventListener("click", () => {
 
 // Collapsible sidebar code (it's ugly but I don't care)
 var sections = $(".collapsible-section");
-if (!sidebar_collapsed) {
-	sections.addClass("open");
-}
+// if (!sidebar_collapsed) {
+// 	sections.addClass("open");
+// }
 
 // Add click listener to all collapsible sections
 for (let i = 0; i < sections.length; i++) {
